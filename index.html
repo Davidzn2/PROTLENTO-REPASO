@@ -29,6 +29,7 @@
             type="number"
             class="form-control"
             placeholder="Primer numero a sumar"
+            id="valor-1"
           />
         </div>
         <div class="col-6">
@@ -36,15 +37,14 @@
             type="number"
             class="form-control"
             placeholder="Segundo numero a sumar"
+            id="valor-2"
           />
         </div>
 
       </div>
-      <button class="btn btn-primary">Sumar</button>
+      <button class="btn btn-primary" onclick="sumar()">Sumar</button>
 
-      <div class="alert alert-dark">
-        <span>El resultado es: 78</span>
-      </div>
+      <div id="resultado"></div>
     </div>
     <script src="app.js"></script>
   </body>
